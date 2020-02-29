@@ -1,1 +1,77 @@
 /* styles goes here */
+.container {
+    background: #E5E5E5;
+} 
+
+.row .col-4 {
+    margin-bottom: 20px;
+}
+
+.date {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #818181;
+}
+
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #1D1D1D;
+}
+
+.icon img{
+    margin-top: 94px;
+}
+
+.table {
+    padding: 20px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 422px;
+    margin-bottom: 30px;
+    
+}
+
+.col-8 {
+    background: url(../img/car.png)no-repeat;
+    width: 100%;
+    display: flex; 
+  /* margin-left: 15px;
+  margin-right: -15px; */
+}
+
+.titleimg {
+    margin-top: 435px;
+}
+
+.titleimg p {
+    margin: 0 auto;
+}
+
+
+.titleimg:hover {
+    background: #f30404;
+    opacity: 0.1;
+}
+.col-4:hover {
+    background: #f30404;
+    opacity: 0.5;
+}
