@@ -1,4 +1,7 @@
 /* styles goes here */
+body {
+    width: 100%;
+}
 .container {
     background: #E5E5E5;
 } 
@@ -50,16 +53,18 @@
     
 }
 
-.col-8 {
+.bg {
     background: url(../img/car.png)no-repeat;
     width: 100%;
     display: flex; 
-  /* margin-left: 15px;
-  margin-right: -15px; */
+    background-size: cover;
+    
 }
 
 .titleimg {
     margin-top: 435px;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
 
 .titleimg p {
