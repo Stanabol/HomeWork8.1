@@ -58,6 +58,8 @@ body {
     width: 100%;
     display: flex; 
     background-size: cover;
+    /* height: 100%; */
+    /* padding-top: 8px; */
     
 }
 
@@ -71,12 +73,14 @@ body {
     margin: 0 auto;
 }
 
-
-.titleimg:hover {
-    background: #f30404;
-    opacity: 0.1;
-}
 .col-4:hover {
-    background: #f30404;
-    opacity: 0.5;
+    background: cadetblue;
+    opacity: 1;
+}
+.bg:hover {
+    opacity: 0.8;
+    background: url(../img/car.png);
+    width: 100%;
+    display: flex; 
+    background-size: cover;
 }
